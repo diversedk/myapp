@@ -29,36 +29,10 @@
                 
               </v-card>
             </v-col>
-            <v-spacer></v-spacer>
+            
             <v-col>
               <div>
               <v-card  :class="`pa-4 job ${job.STS}`" v-for="job in jobs" :key="job.STD">
-                <v-layout>
-                  <v-flex >
-                    <div class="caption grey--text text-left">STD</div>
-                    <div class="">{{ job.STD }}</div>
-                  </v-flex>
-                  <v-flex >
-                    <div class="caption grey--text text-left">Registration</div>
-                    <div class="">{{ job.REG }}</div>
-                  </v-flex>
-                  <v-flex >
-                    <div class="caption grey--text text-left">Airline</div>
-                    <div class="">{{ job.AIR }}</div>
-                  </v-flex>
-                  <v-flex >
-                    <div class="caption grey--text text-left">Stand</div>
-                    <div class="">{{ job.STA }}</div>
-                  </v-flex>
-                  <v-flex >
-                    <div class="caption grey--text text-left">Status</div>
-                    <div :class="`caption jobtxt ${job.STS}`">{{ job.STS }}</div>
-                  </v-flex>
-                </v-layout>
-              </v-card>
-              </div>
-              <div style="margin-top:10px;">
-              <v-card :class="`pa-4 job ${job.STS}`" v-for="job in jobs" :key="job.STD">
                 <v-layout>
                   <v-flex >
                     <div class="caption grey--text text-left">STD</div>
