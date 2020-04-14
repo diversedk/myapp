@@ -1,6 +1,5 @@
 <template>
     <div class="team">
-       
         <v-container my-2>
           <v-row>
             <v-col>
