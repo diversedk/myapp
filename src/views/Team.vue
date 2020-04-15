@@ -3,6 +3,7 @@
         <v-container my-2>
           <v-row>
             <v-col>
+              
               <v-card  :class="`pa-4 job ${job.STS}`" v-for="job in jobs" :key="job.STD">
                 <v-layout>
                   <v-flex >
@@ -32,6 +33,7 @@
             
             <v-col>
               <div>
+            
               <v-card  :class="`pa-4 job ${job.STS}`" v-for="job in jobs" :key="job.STD">
                 <v-layout>
                   <v-flex >

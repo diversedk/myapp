@@ -51,7 +51,7 @@
         desserts: [
           {
             name: 'Frozen Yogurt',
-            calories: 250,
+            calories: 2550,
             fat: 6.0,
             carbs: 24,
             protein: 4.0,
